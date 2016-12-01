@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href=""?>
+
+<plugin>
+    <name>HelloBach</name>
+    <creationDate>2016-11-30</creationDate>
+    <author>Guannan Du</author>
+    <authorEmail>dugn@jingoal.co</authorEmail>
+    <authorUrl></authorUrl>
+    <license>GPL</license>
+    <description>Hello Bach plugin</description>
+    <version>0.0.1-dev</version>
+    <oxversion>3.2.0-beta-rc3</oxversion>
+    <type>package</type>
+
+    <install>
+
+        <files>
+            <file path="{PLUGINPATH}">HelloBach.readme.txt</file>
+        </files>
+
+        <!-- list the groups that are contained in this plugin -->
+        <!-- in the order they should be installed -->
+        <contents>
+            <group name="Bach">0</group>
+        </contents>
+    </install>
+
+</plugin>
